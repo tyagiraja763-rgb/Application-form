@@ -1,0 +1,362 @@
+<!--
+Name: Raja tyagi
+Roll No: __________
+Date: __________
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+
+        InternConnect Application Form
+
+    </title>
+
+    <!-- External CSS -->
+
+    <link rel="stylesheet"
+          href="style4.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h1>
+
+            InternConnect
+
+        </h1>
+
+        <p>
+
+            Internship Application Portal
+
+        </p>
+
+    </header>
+
+    <!-- Navigation -->
+
+    <nav>
+
+        <a href="#application">
+            Apply
+        </a>
+
+        <a href="#roles">
+            Roles
+        </a>
+
+        <a href="#contact">
+            Contact
+        </a>
+
+    </nav>
+
+    <!-- Main Content -->
+
+    <main>
+
+        <!-- Introduction Section -->
+
+        <section>
+
+            <h2>
+
+                Internship Program
+
+            </h2>
+
+            <p>
+
+                InternConnect helps students apply for internships
+                in software development, web design and data analysis.
+
+                Fill the form below carefully to apply for internship opportunities.
+
+            </p>
+
+        </section>
+
+        <!-- Application Form -->
+
+        <section id="application">
+
+            <h2>
+
+                Internship Application Form
+
+            </h2>
+
+            <form method="post">
+
+                <!-- Fieldset 1 -->
+
+                <fieldset>
+
+                    <legend>
+
+                        Personal Information
+
+                    </legend>
+
+                    <!-- Name -->
+
+                    <label for="name">
+
+                        Full Name :
+
+                    </label>
+
+                    <br>
+
+                    <input type="text"
+                           id="name"
+                           required>
+
+                    <br><br>
+
+                    <!-- Email -->
+
+                    <label for="email">
+
+                        Email Address :
+
+                    </label>
+
+                    <br>
+
+                    <input type="email"
+                           id="email"
+                           required>
+
+                    <br><br>
+
+                    <!-- Phone -->
+
+                    <label for="phone">
+
+                        Phone Number :
+
+                    </label>
+
+                    <br>
+
+                    <input type="tel"
+                           id="phone"
+                           pattern="[0-9]{10}"
+                           placeholder="10 digit number">
+
+                    <br><br>
+
+                    <!-- Date -->
+
+                    <label for="date">
+
+                        Date of Birth :
+
+                    </label>
+
+                    <br>
+
+                    <input type="date"
+                           id="date">
+
+                </fieldset>
+
+                <br>
+
+                <!-- Fieldset 2 -->
+
+                <fieldset>
+
+                    <legend>
+
+                        Internship Details
+
+                    </legend>
+
+                    <!-- Radio Buttons -->
+
+                    <p id="roles">
+
+                        Select Preferred Role :
+
+                    </p>
+
+                    <input type="radio"
+                           id="web"
+                           name="role">
+
+                    <label for="web">
+
+                        Web Developer
+
+                    </label>
+
+                    <br>
+
+                    <input type="radio"
+                           id="software"
+                           name="role">
+
+                    <label for="software">
+
+                        Software Developer
+
+                    </label>
+
+                    <br>
+
+                    <input type="radio"
+                           id="data"
+                           name="role">
+
+                    <label for="data">
+
+                        Data Analyst
+
+                    </label>
+
+                    <br><br>
+
+                    <!-- Range Slider -->
+
+                    <label for="skills">
+
+                        Skill Level :
+
+                    </label>
+
+                    <br>
+
+                    <input type="range"
+                           id="skills"
+                           min="1"
+                           max="10">
+
+                    <br><br>
+
+                    <!-- Datalist -->
+
+                    <label for="language">
+
+                        Favorite Programming Language :
+
+                    </label>
+
+                    <br>
+
+                    <input list="languages"
+                           id="language">
+
+                    <datalist id="languages">
+
+                        <option value="Python">
+
+                        <option value="Java">
+
+                        <option value="C++">
+
+                        <option value="JavaScript">
+
+                    </datalist>
+
+                    <br><br>
+
+                    <!-- Textarea -->
+
+                    <label for="message">
+
+                        Why Do You Want This Internship?
+
+                    </label>
+
+                    <br>
+
+                    <textarea id="message"
+                              rows="6"
+                              cols="40">
+
+                    </textarea>
+
+                </fieldset>
+
+                <br>
+
+                <!-- Submit Button -->
+
+                <button type="submit">
+
+                    Submit Application
+
+                </button>
+
+            </form>
+
+        </section>
+
+        <!-- Contact Section -->
+
+        <section id="contact">
+
+            <h2>
+
+                Contact Information
+
+            </h2>
+
+            <p>
+
+                Email :
+                support@internconnect.com
+
+            </p>
+
+            <p>
+
+                Phone :
+                +91 7668400616
+
+            </p>
+
+            <p>
+
+                Address :
+                Hapur, Uttar Pradesh
+
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+
+            © 2026 InternConnect |
+            All Rights Reserved
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
